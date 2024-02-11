@@ -8,17 +8,17 @@ Content-Type: application/json
 # создание объявления
 POST http://127.0.0.1:8000/api/advertisements/
 Content-Type: application/json
-Authorization: Token 5682e8e6130d6fc46a261da6107579e151755ffd
+Authorization: Token 2bba6139227ba1e1857f5009918084f05f5c9856
 
 {
-  "title": "Шкаф IKEA",
+  "title": "Шкаф ",
   "description": "Срочно"
 }
 
 ###
 
 # попытка поменять объявление
-PATCH http://127.0.0.1:8000/api/advertisements/1/
+PATCH http://127.0.0.1:8000/api/advertisements/5/
 Content-Type: application/json
 Authorization: Token 5682e8e6130d6fc46a261da6107579e151755ffd
 
